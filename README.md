@@ -1,0 +1,38 @@
+# Collective Life
+
+How do interactions generate collective behavior, ecological organization and sometimes new evolutionary individuals? Coordination, community persistence and reproduction at a higher level are separate outcomes.
+
+## Coordination and construction
+
+- **Stigmergy** - Environmental changes left by one action guide subsequent actions. Nest structures and chemical traces coordinate construction and foraging through local feedback; the environment retains part of the collective activity. [Grassé 1959](<https://doi.org/10.1007/BF02223791> "La reconstruction du nid et les coordinations interindividuelles chez Bellicositermes natalensis et Cubitermes sp. La théorie de la stigmergie: Essai d&#x27;interprétation du comportement des termites constructeurs; Insectes Sociaux"), [Theraulaz and Bonabeau 1999](<https://doi.org/10.1162/106454699568700> "A Brief History of Stigmergy; Artificial Life").
+- **Boids** - Simulated agents combine collision avoidance, velocity matching and attraction toward nearby flockmates. Flock motion emerges from local perception and steering rather than separately scripted trajectories. [Reynolds 1987](<https://www.red3d.com/cwr/papers/1987/boids.html> "Flocks, Herds, and Schools: A Distributed Behavioral Model; SIGGRAPH").
+- **Density-dependent locust marching** - In laboratory ring arenas, locust nymphs shift from disordered movement to coordinated marching as density increases. Groups also reverse without external perturbation; the experiment tests ordering predicted by local-interaction models. [Buhl et al. 2006](<https://doi.org/10.1126/science.1125142> "From Disorder to Order in Marching Locusts; Science").
+- **Kilobot self-assembly** - A physical swarm of 1,024 robots forms prescribed shapes using local communication and distance measurements. Each robot receives the target image; four placed seed robots establish the coordinate frame. [Rubenstein et al. 2014](<https://ssr.princeton.edu/sites/g/files/toruqf2946/files/documents/science2014-rubenstein.pdf> "Programmable self-assembly in a thousand-robot swarm; Science"); [video](<https://wyss.harvard.edu/news/a-self-organizing-thousand-robot-swarm/>).
+- **TERMES** - An offline compiler translates a target structure into local robot rules. Robots coordinate construction through the partially built environment; physical demonstrations use climbing robots and specialized bricks. [Werfel et al. 2014](<https://ssr.princeton.edu/sites/g/files/toruqf2946/files/documents/science2014-termes.pdf> "Designing Collective Behavior in a Termite-Inspired Robot Construction Team; Science").
+
+## Ecological organization
+
+- **Synthetic metabolic cooperation** - Two engineered yeast strains require metabolites supplied by their partner. Overproduction enables sustained joint growth; metabolite release and initial density constrain persistence. Cooperation is built through imposed metabolic dependencies. [Shou et al. 2007](<https://pmc.ncbi.nlm.nih.gov/articles/PMC1794266/> "Synthetic cooperation in engineered yeast populations; PNAS").
+
+## Evolutionary individuality
+
+- **Colonies as organisms** - Wheeler treats an ant colony as an organized individual, drawing on its coordinated behavior, division of labor and life cycle. A historical argument for organismal organization above the single animal. [Wheeler 1911](<https://doi.org/10.1002/jmor.1050220206> "The ant-colony as an organism; J. Morphol.").
+- **Inclusive fitness** - Connects selection on social behavior to reproductive effects on the actor and relatives. A costly act can be favored when relatedness-weighted benefits exceed costs under the model; relatedness alone does not establish that helping evolves. [Hamilton 1964](<https://doi.org/10.1016/0022-5193(64)90038-4> "The genetical evolution of social behaviour. I; J. Theor. Biol.").
+    - **Explaining eusociality** - Nowak et al. favor population-genetic models and question inclusive fitness beyond restrictive assumptions. Abbot et al. contest those restrictions and defend its explanatory and empirical record; the disagreement concerns mechanisms of social evolution. [Nowak et al. 2010](<https://doi.org/10.1038/nature09205> "The evolution of eusociality; Nature"), [Abbot et al. 2011](<https://doi.org/10.1038/nature09831> "Inclusive fitness theory and eusociality; Nature").
+- **Evolutionary individuality** - Major transitions combine previously independent replicators into larger reproducing units. Division of labor and suppression of internal conflict help explain how organization persists across levels. [Szathmáry and Maynard Smith 1995](<https://doi.org/10.1038/374227a0> "The major evolutionary transitions; Nature").
+- **Snowflake yeast** - Selection for rapid settling yields multicellular clusters through postdivision adhesion. Clusters reproduce by releasing propagules; laboratory selection exposes steps toward a new reproductive individual. [Ratcliff et al. 2012](<https://pmc.ncbi.nlm.nih.gov/articles/PMC3277146/> "Experimental evolution of multicellularity; PNAS").
+
+## Open questions
+
+- Which resource exchanges stabilize a community, and which changes in partners or conditions dissolve the dependence?
+- When does a collective reproduce as a unit, and what evidence separates collective selection from benefits to its members?
+
+## Related topics
+
+- [Hyperorganism](https://hyperorganism.github.io/)
+- [Active-particle ordering](https://hyperorganism.github.io/active-matter/#physical-foundations-and-collective-motion) - Locust experiments test an ordering prediction; similarity of group motion alone does not identify the animals' interaction rules.
+- [Physarum network adaptation](https://hyperorganism.github.io/unconventional-computing/#physical-and-biological-computations) - A single multinucleate cell can form transport networks; distributed organization need not involve many organisms.
+- [Digital ecologies](https://hyperorganism.github.io/digital-life/#digital-organisms-and-ecologies) - Tierra makes competition and parasitism observable in a computational world.
+- [Autonomy and viability](https://hyperorganism.github.io/synthetic-life/#autonomy-and-viability) - Interdependence raises questions about which organization is being maintained.
+- [Biospheres and technospheres](https://hyperorganism.github.io/biospheres-and-technospheres/) - Planetary coupling adds scale and environmental feedback; it does not presume organismal unity.
+- [Morphogenesis](https://hyperorganism.github.io/morphogenesis/)
